@@ -4649,7 +4649,6 @@ CMDs[#CMDs + 1] = {NAME = 'noesp / unesp', DESC = 'Removes esp'}
 CMDs[#CMDs + 1] = {NAME = 'esptransparency [number]', DESC = 'Changes the transparency of esp related commands'}
 CMDs[#CMDs + 1] = {NAME = 'partesp [part name]', DESC = 'Highlights a part'}
 CMDs[#CMDs + 1] = {NAME = 'unpartesp / nopartesp [part name]', DESC = 'removes partesp'}
-CMDs[#CMDs + 1] = {NAME = 'nochams / unchams', DESC = 'Removes chams'}
 CMDs[#CMDs + 1] = {NAME = 'locate [player]', DESC = 'View a single player and their status'}
 CMDs[#CMDs + 1] = {NAME = 'unlocate / nolocate [player]', DESC = 'Removes locate'}
 CMDs[#CMDs + 1] = {NAME = 'xray', DESC = 'Makes all parts in workspace transparent'}
