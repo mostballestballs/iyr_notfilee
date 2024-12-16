@@ -13642,7 +13642,7 @@ local function iyonloadstuff(shouldpopupannouncement)
 			notify('Outdated','Get the new version by executing it again (or rejoin if keepiy is enabled)')
 		end
 
-		if shouldpopupannouncement then
+		if false then --if shouldpopupannouncement then
 			if latestVersionInfo.Announcement and latestVersionInfo.Announcement ~= '' then
 				local AnnGUI = Instance.new("Frame")
 				local background = Instance.new("Frame")
