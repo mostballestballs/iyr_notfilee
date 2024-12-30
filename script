@@ -8608,11 +8608,17 @@ function updateESP(player, esp)
 		local cframe = char:GetModelCFrame() --rarely used wtf
 		local position, visible, depth = wtvp(cframe.Position)
 		esp.box.Visible = visible
+		esp.box.BackgroundTransparency = espTransparency
 		esp.boxl.Visible = visible
+		esp.box1.BackgroundTransparency = espTransparency
 		esp.healthbar.Visible = visible
+		esp.healthbar.BackgroundTransparency = espTransparency
 		esp.healthbarl.Visible = visible
+		esp.healthbarl.BackgroundTransparency = espTransparency
 		esp.name.Visible = visible
+		esp.name.TextTransparency = espTransparency
 		esp.distance.Visible = visible
+		esp.distance.TextTransparency = espTransparency
 		if cframe and visible then
 			local sf = 1 / (depth * math.tan(math.rad(Camera.FieldOfView / 2)) * 2) * 1000
 			local w, h = round2(4 * sf, 5 * sf)
